@@ -3,4 +3,5 @@
 """
 import matplotlib
 
-path = ()
+path = input()
+matplotlib.cbook()
