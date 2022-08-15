@@ -9,7 +9,7 @@ fig = plt.figure(figsize=(50, 30), dpi=80)
 x = range(0, 120)
 y = [random.randint(20, 35) for i in range(120)]
 
-plt.plot(x, y)
+plt.plot(x, y, lable="Temperature")
 
 # 设置标题
 plt.xlabel("Time/min")
